@@ -4,7 +4,7 @@ let sum = 0;
 for(let index = 0; index < numbers.length; index += 1){
      sum += numbers[index];
 }
-    console.log(sum / 10);
+    console.log(sum / numbers.length);
 
     if(sum > 20){
         console.log('O valor da média aritmética é maior que 20');
