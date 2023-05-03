@@ -6,3 +6,12 @@ for (let index = 0; index < word.length; index += 1){
 }
 
 console.log(invert);
+
+
+// outra solução 
+// let word = 'tryber';
+// let reverseWord = '';
+
+// reverseWord = word.split('').reverse().join('');
+
+// console.log(reverseWord);
