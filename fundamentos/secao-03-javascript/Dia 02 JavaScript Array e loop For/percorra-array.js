@@ -5,3 +5,9 @@ for(let index = 0; index < numbers.length; index += 1){
      sum += numbers[index];
 }
     console.log(sum / 10);
+
+    if(sum > 20){
+        console.log('O valor da média aritmética é maior que 20');
+    } else {
+        console.log('O valor da média aritmética é menor ou igual a 20');
+    }
