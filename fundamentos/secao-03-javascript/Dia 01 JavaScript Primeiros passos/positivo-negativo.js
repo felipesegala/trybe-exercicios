@@ -1,4 +1,4 @@
-let a = 0;
+let a = -2;
 
 if(a >= 1) {
     console.log("A é Positivo");
