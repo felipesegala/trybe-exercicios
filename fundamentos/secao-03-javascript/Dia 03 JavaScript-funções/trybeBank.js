@@ -1,3 +1,4 @@
+// eslint-disable-next-line qoutes
 let clientesTrybeBank = ['Ada', 'John', 'Gus'];
 
 function adicionaCliente(cliente) {
@@ -5,7 +6,7 @@ function adicionaCliente(cliente) {
         clientesTrybeBank.push(cliente);
         return 'Cliente adicionada(o) com sucesso!';
     } else {
-        return 'O parâmetro passado deve ser do tipo "string"' 
+        return 'O parâmetro passado deve ser do tipo "string"'; 
     }
 }
 
@@ -16,9 +17,9 @@ console.log(clientesTrybeBank); // [ 'Ada', 'John', 'Gus', 'Joaquim' ]
 function removeCliente(cliente) {
     if (typeof cliente === 'string'){
         clientesTrybeBank.pop(cliente);
-        return 'Cliente removido com sucesso!'
+        return 'Cliente removido com sucesso!';
     } else {
-        return 'O parâmetro passado deve ser do tipo "string"'
+        return 'O parâmetro passado deve ser do tipo "string"';
     }
 }
 
