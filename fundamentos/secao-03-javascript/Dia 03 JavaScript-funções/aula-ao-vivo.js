@@ -48,20 +48,20 @@ let lado3 = 8;
 
 // OBS: o console.log final deverá ser assim: console.log(infoTriangle(lado1, lado2, lado3)); Tudo deve acontecer depois de sua execução...
 
-let a = 60;
-let b = 60;
-let c = 60;
+// let a = 60;
+// let b = 60;
+// let c = 60;
 
-let sum = a + b + c;
+// let sum = a + b + c;
 
-let anglesPositive = a > 0 && b > 0 && c > 0;
+// let anglesPositive = a > 0 && b > 0 && c > 0;
 
-if(anglesPositive){
-    if(sum === 180){
-        console.log("true");
-} else {
-    console.log("false");
-};
-} else {
-    console.log('Erro: angulo inválido!');
-}
+// if(anglesPositive){
+//     if(sum === 180){
+//         console.log("true");
+// } else {
+//     console.log("false");
+// };
+// } else {
+//     console.log('Erro: angulo inválido!');
+// }
