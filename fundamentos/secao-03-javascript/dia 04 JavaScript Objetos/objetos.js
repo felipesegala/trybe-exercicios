@@ -48,16 +48,45 @@
 
 // console.table(player);
 
-let band = {
-    name: 'Blind Guardian',
-    formedIn: 1986,
-    lastAlbum: 'Beyond the Red Mirror',
-  };
+// let band = {
+//     name: 'Blind Guardian',
+//     formedIn: 1986,
+//     lastAlbum: 'Beyond the Red Mirror',
+//   };
   
-  let info = {
-    genre: 'Power Metal',
-    lastAlbum: 'Twilight Orchestra: Legacy of the Dark Lands',
-  };
+//   let info = {
+//     genre: 'Power Metal',
+//     lastAlbum: 'Twilight Orchestra: Legacy of the Dark Lands',
+//   };
 
-  Object.assign(band, info);
-  console.log(band);
+//   Object.assign(band, info);
+//   console.log(band);
+
+// let info = {
+//   personagem: 'Margarida',
+//   origem: 'Pato Donald',
+//   nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+// };
+
+// console.log('Bem-vinda,',info.personagem);
+
+// let info = {
+//   personagem: 'Margarida',
+//   origem: 'Pato Donald',
+//   nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+  
+// }
+
+// info['recorrente'] = 'sim';
+// console.log(info);
+
+// let info = {
+//   personagem: 'Margarida',
+//   origem: 'Pato Donald',
+//   nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
+  
+// }
+
+// for(let index in info) {
+//   console.log(index);
+// }
