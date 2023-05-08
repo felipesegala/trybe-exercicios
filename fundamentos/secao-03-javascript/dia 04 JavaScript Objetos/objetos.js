@@ -103,21 +103,39 @@
 //   console.log(index, info[index]);
 // }
 
-let info1 = {
-  personagem: 'Margarida',
-  origem: 'Pato Donald',
-  nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald'
-}
+// let info1 = {
+//   personagem: 'Margarida',
+//   origem: 'Pato Donald',
+//   nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald'
+// }
 
-let info2 = {
-  personagem: 'Tio Patinhas',
-  origem: 'Pato Christmas on Bear Mountain, Dells Four Color Comics #178',
-  nota: 'O último MacPatinhas'
-}
+// let info2 = {
+//   personagem: 'Tio Patinhas',
+//   origem: 'Pato Christmas on Bear Mountain, Dells Four Color Comics #178',
+//   nota: 'O último MacPatinhas'
+// }
 
-let names = info1.personagem + ' e ' + info2.personagem;
-let origin = info1.origem + ' e ' + info2.origem;
-let note = info1.nota + ' e ' + info2.nota;
-console.log(names);
-console.log(origin);
-console.log(note);
+// let names = info1.personagem + ' e ' + info2.personagem;
+// let origin = info1.origem + ' e ' + info2.origem;
+// let note = info1.nota + ' e ' + info2.nota;
+// console.log(names);
+// console.log(origin);
+// console.log(note);
+
+
+// let leitor = {
+//   nome: 'Julia',
+//   sobrenome: 'Pessoa',
+//   idade: 21,
+//   livrosFavoritos: [
+//     {
+//       titulo: 'O Pior Dia de Todos',
+//       autor: 'Daniela Kopsch',
+//       editora: 'Tordesilhas',
+//     },
+//   ],
+// };
+
+
+
+// console.log('O Livro Favorito de ' + leitor.nome + ' ' + leitor.sobrenome + ' se chama ' + leitor.livrosFavoritos[0].titulo + '.');
