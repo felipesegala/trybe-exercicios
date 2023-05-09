@@ -41,7 +41,9 @@ let order = {
   customerInfo(order);
   
   function orderModifier(order) {
-    // Adicione abaixo as informações necessárias.
-  }
+    order.name = 'Luiz Silva';
+    order.payment.total = 50;
+    return `Olá ${order.name}, o valor total de seu pedido de  e`
+};
   
   orderModifier(order);
