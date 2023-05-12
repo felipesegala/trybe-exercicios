@@ -34,16 +34,16 @@ let order = {
     },
   };
   
-  function customerInfo(order) {
-    console.log(`Olá, ${order.order.delivery.deliveryPerson}, entrega para: ${order.name}, Telefone: ${order.phoneNumber}, R. ${order.address.street}, Nº: ${order.address.number}, AP: ${order.address.apartment}.`);
-  }
+  // function customerInfo(order) {
+  //   // console.log(`Olá, ${order.order.delivery.deliveryPerson}, entrega para: ${order.name}, Telefone: ${order.phoneNumber}, R. ${order.address.street}, Nº: ${order.address.number}, AP: ${order.address.apartment}.`);
+  // }
   
-  customerInfo(order);
+  // customerInfo(order);
   
   function orderModifier(order) {
     order.name = 'Luiz Silva';
     order.payment.total = 50;
-    return `Olá ${order.name}, o valor total de seu pedido de  e`
+    return `Olá ${order.name}, o valor total de seu pedido de e ${order.payment.total}.`;
 };
   
-  orderModifier(order);
+  console.log(orderModifier(order));
