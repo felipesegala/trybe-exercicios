@@ -45,7 +45,7 @@
 //   let sobrenome = 'Pires';
 //   console.log(nomeCompleto(nome, sobrenome));
 
-let speed = 90;
+// let speed = 90;
 // let speedCa = (speed) => {
 //   if (speed >= 120) {
 //     return `Você ultrapassou o limite de velocidade`;
