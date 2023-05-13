@@ -1,23 +1,21 @@
-// let saldo = 100;
+let saldo = 1000;
 
+const soma = (saldo) => {
+        return saldo;
+    }
+    console.log(saldo + 150);
 
-// function somaSaldo(valor){
-//     return saldo + valor;
-// }
+const sub = (retira) => {
+        return retira;
+}
+console.log(saldo - 50);
 
-// function subtraiSaldo(valor){
-//     return saldo - valor; 
-// }
+const mult = (x) => {
+        return x;
+}
+console.log(saldo * 3);
 
-// function multiplicaSaldo(valor){
-//     return saldo * valor ;
-// }
-
-// function divideSaldo(valor){
-//     return saldo / valor;
-// }
-
-// console.log(somaSaldo(3000));
-// console.log(subtraiSaldo(80));
-// console.log(multiplicaSaldo(2));
-// console.log(divideSaldo(2));
+const div = (divisao) => {
+        return divisao;
+}
+console.log(saldo / 2);

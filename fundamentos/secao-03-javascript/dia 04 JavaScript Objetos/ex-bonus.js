@@ -19,5 +19,7 @@ let lesson1 = {
   };
 
   const add = (object, keys, value) => {
-  object.push(lesson2)  
+  object[keys] = value;
   }
+
+  console.log(add(lesson2, 'turno', 'noite'));
